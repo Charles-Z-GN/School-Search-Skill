@@ -1,0 +1,17 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "school-research",
+  "version": "1.02",
+  "description": "Official-source undergraduate school and program research skill",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "school-research 1.02",
+        "shortDescription": "基于官方来源整理本科院校、课程与申请要求",
+        "defaultPrompt": [
+          "使用 school-research，先实测官方网页读取和 Markdown 文件读写能力，报告结果后开始采集申请画像。"
+        ]
+      }
+    }
+  }
+}
